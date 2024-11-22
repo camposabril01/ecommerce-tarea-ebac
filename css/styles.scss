@@ -4,7 +4,7 @@ $black: #181818;
 $darkGray: #333;
 $gray: #9f9f9f;
 $white: #fff;
-$bannerBack: url("../img/banner.png");
+$bannerBack: url("../img/banner_2.jpg");
 $boxShadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.30);
 
 @mixin textProperties($weight, $size) {
@@ -32,7 +32,7 @@ $boxShadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.30);
 
 body {
     font-family: $fontFamily;
-    @include textProperties(300, 15);
+    @include textProperties(300, 15px);
     @include widthMargin(100%, 0);
     color: $black;
 
@@ -58,9 +58,9 @@ main {
         background-image: $bannerBack;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-y: 20%;
+        background-position-y: 50%;
         color: $white;
-        padding: 60px 0;
+        padding: 80px 0;
         text-align: center;
 
         &__title {

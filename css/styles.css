@@ -14,7 +14,7 @@ main .cart__item, body .header {
 body {
   font-family: "Lexend", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 15;
+  font-size: 15px;
   width: 100%;
   margin: 0;
   color: #181818;
@@ -29,12 +29,12 @@ body .header__logo {
 }
 
 main .banner {
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 20%;
+  background-position-y: 50%;
   color: #fff;
-  padding: 60px 0;
+  padding: 80px 0;
   text-align: center;
 }
 main .banner__title {
